@@ -1,16 +1,96 @@
-# React + Vite
+# 📝 Mastering Form Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A clean and responsive contact form built with React & Vite. Practice and master client-side form validation: required fields, email format checking, terms acceptance and instant error feedback before sending.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌍 Live Demo
 
-## React Compiler
+👉 [https://hatimelbakkali.github.io/Form-Validation/](https://hatimelbakkali.github.io/Form-Validation/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 👤 **Name** field validation (required)
+- 📧 **Email** field validation (required + valid email format)
+- 💬 **Message** field validation (required)
+- ✅ **Terms checkbox** must be accepted before sending
+- 🚨 Instant error messages for each invalid field
+- 📱 Fully responsive layout
+- ⚡ Fast development and build with Vite
+
+---
+
+## 🛠️ Built With
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,bootstrap,js,html,css,git,github" alt="Tech stack" />
+</p>
+
+---
+
+## 📁 Project Structure
+
+```
+Form-Validation/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Form/
+│   │       └── FormValidation.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
+
+### 📥 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/HatimElbakkali/Form-Validation.git
+
+# Go to the project folder
+cd Form-Validation
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Then open **http://localhost:5173/Form-Validation/** in your browser.
+
+### 📜 Available Scripts
+
+| Command           | Description                  |
+| ----------------- | ---------------------------- |
+| `npm run dev`     | Start the development server |
+| `npm run build`   | Build the app for production |
+| `npm run preview` | Preview the production build |
+| `npm run lint`    | Run ESLint                   |
+
+---
+
+## 📬 Connect
+
+If you want to see more of my work or contact me:
+All links on Social media: [https://linktr.ee/HatimElbakkali](https://linktr.ee/HatimElbakkali)
+
+---
+
+Thank you! 😊

@@ -1,4 +1,4 @@
-import FormValidation from "./Form/FormValidation"
+import FormValidation from "./components/Form/FormValidation.jsx"
 function App() {
 
   return (
